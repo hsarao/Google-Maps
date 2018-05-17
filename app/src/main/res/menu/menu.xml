@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/normal"
+        android:orderInCategory="100"
+        android:title="Normal"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/satellite"
+        android:orderInCategory="200"
+        android:title="Satellite"
+        app:showAsAction="never"
+        ></item>
+    <item
+        android:id="@+id/terrain"
+        android:orderInCategory="300"
+        android:title="Terrain"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/hybrid"
+        android:orderInCategory="400"
+        android:title="Hybrid"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/barnala"
+        android:title="barnala"
+        android:icon="@drawable/barnala"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/london"
+        android:title="london"
+        android:icon="@drawable/london2"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/winnipeg"
+        android:title="Winnipeg"
+        android:icon="@drawable/test2"
+        app:showAsAction="always"/>
+
+</menu>
